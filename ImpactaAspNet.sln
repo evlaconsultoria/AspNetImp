@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Dominio", "Oficina.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Repositorios.SistemaArquivos", "Oficina.Repositorios.SistemaArquivos\Oficina.Repositorios.SistemaArquivos.csproj", "{CBEEA034-A9DB-4118-B392-8CA7423AECD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oficina.Repositorios.SistemaArquivosTests", "Oficina.Repositorios.SistemaArquivosTests\Oficina.Repositorios.SistemaArquivosTests.csproj", "{E3FB4B64-339F-43D1-8F99-30C495B73945}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{CBEEA034-A9DB-4118-B392-8CA7423AECD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBEEA034-A9DB-4118-B392-8CA7423AECD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBEEA034-A9DB-4118-B392-8CA7423AECD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3FB4B64-339F-43D1-8F99-30C495B73945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FB4B64-339F-43D1-8F99-30C495B73945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FB4B64-339F-43D1-8F99-30C495B73945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FB4B64-339F-43D1-8F99-30C495B73945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
