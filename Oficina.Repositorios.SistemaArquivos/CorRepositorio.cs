@@ -1,6 +1,7 @@
 ﻿using Oficina.Dominio;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace Oficina.Repositorios.SistemaArquivos
 {
     public class CorRepositorio
     {
-        const string caminhoArquivo = @"Dados\Cor.txt";
+        //ToDo: implementar metodo de extensao
+        private string caminhoArquivo = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ConfigurationManager.AppSettings["caminhoArquivoCor"]);
 
         public List<Cor> Selecionar()
         {
